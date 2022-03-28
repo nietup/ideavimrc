@@ -1,0 +1,10 @@
+:set relativenumber					" show relative line numbers
+:set number						" always show line numbers
+:set ignorecase						" searches case insensitive
+:set clipboard=unnamed					" use system clipboard to yank/paste
+
+" create new class using \n
+:nnoremap \n :action NewClass<CR>			
+
+" reload vimrc on \r
+:nnoremap \r :source ~/.ideavimrc<CR>	
