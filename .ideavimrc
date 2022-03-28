@@ -14,3 +14,9 @@
 
 " search with \p
 :nnoremap \p :action FindInPath<CR>
+
+" run with \s
+:nnoremap \s :action Run<CR>
+
+" run class with \sc
+:nnoremap \sc :action RunClass<CR>
