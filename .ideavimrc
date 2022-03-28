@@ -9,8 +9,8 @@
 " reload vimrc on \r
 :nnoremap \r :source ~/.ideavimrc<CR>	
 
-" go to class with \p
-:nnoremap \p :action GotoClass<CR>
+" open class with \o
+:nnoremap \o :action GotoClass<CR>
 
-" search with \[
-:nnoremap \[ :action FindInPath<CR>
+" search with \p
+:nnoremap \p :action FindInPath<CR>
