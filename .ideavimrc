@@ -1,7 +1,12 @@
+" GENERAL VIM SETTINGS
+
 :set relativenumber					" show relative line numbers
 :set number						" always show line numbers
 :set ignorecase						" searches case insensitive
 :set clipboard=unnamed					" use system clipboard to yank/paste
+
+
+" IDEA-SPECIFIC SETTINGS
 
 " create new class using \n
 :nnoremap \n :action NewClass<CR>			
