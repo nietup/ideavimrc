@@ -8,8 +8,11 @@
 
 " IDEA-SPECIFIC SETTINGS
 
-" create new class using \n
-:nnoremap \n :action NewClass<CR>			
+" create new class using \nj
+:nnoremap \nj :action NewClass<CR>			
+
+" create new Kotlin class using \nk
+:nnoremap \nk :action Kotlin.NewFile<CR>			
 
 " reload vimrc on \r
 :nnoremap \r :source ~/.ideavimrc<CR>	
@@ -20,8 +23,12 @@
 " search with \p
 :nnoremap \p :action FindInPath<CR>
 
-" run with \s
-:nnoremap \s :action Run<CR>
+" run with \sr
+:nnoremap \sr :action Run<CR>
 
 " run class with \sc
 :nnoremap \sc :action RunClass<CR>
+
+" stop with \ss
+:nnoremap \ss :action Stop<CR>
+
